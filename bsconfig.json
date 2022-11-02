@@ -1,0 +1,31 @@
+{
+  "name": "rs-template",
+  "version": "0.0.1",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "es6-global",
+    "in-source": true
+  },
+  "suffix": ".js",
+  "reason": { "react-jsx": 3 },
+  "bs-dependencies": [
+    "@rescript/react"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "bsc-flags": ["-open Belt"],
+  "gentypeconfig": {
+    "language": "untyped",
+    "generatedFileExtension": ".gen.js",
+    "module": "es6",
+    "shims": {},
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+  }
+}
