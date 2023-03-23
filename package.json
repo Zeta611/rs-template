@@ -22,12 +22,12 @@
   },
   "packageManager": "yarn@3.2.2",
   "devDependencies": {
-    "@rescript/react": "^0.10.3",
+    "@rescript/react": "^0.11.0",
     "@vitejs/plugin-react": "^2.0.1",
     "autoprefixer": "^10.4.13",
     "gentype": "^4.5.0",
     "postcss": "^8.4.19",
-    "rescript": "rescript-lang/rescript-compiler#10.1.0-rc.3",
+    "rescript": "^10.1.0",
     "tailwindcss": "^3.1.8",
     "vite": "^3.0.4"
   }

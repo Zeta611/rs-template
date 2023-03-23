@@ -311,10 +311,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@rescript/react@^0.10.3":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@rescript/react/-/react-0.10.3.tgz#a2a8bed6b017940ec26c2154764b350f50348889"
-  integrity sha512-Lf9rzrR3bQPKJjOK3PBRa/B3xrJ7CqQ1HYr9VHPVxJidarIJJFZBhj0Dg1uZURX+Wg/xiP0PHFxXmdj2bK8Vxw==
+"@rescript/react@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@rescript/react/-/react-0.11.0.tgz#d2545546d823bdb8e6b59daa1790098d1666f79e"
+  integrity sha512-RzoAO+3cJwXE2D7yodMo4tBO2EkeDYCN/I/Sj/yRweI3S1CY1ZBOF/GMcVtjeIurJJt7KMveqQXTaRrqoGZBBg==
 
 "@vitejs/plugin-react@^2.0.1":
   version "2.2.0"
@@ -957,9 +957,10 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-rescript@rescript-lang/rescript-compiler#10.1.0-rc.3:
-  version "10.1.0-rc.3"
-  resolved "https://codeload.github.com/rescript-lang/rescript-compiler/tar.gz/344a3b73be3e03d1307ee51d842e760d3f313fa4"
+rescript@^10.1.0:
+  version "10.1.3"
+  resolved "https://registry.yarnpkg.com/rescript/-/rescript-10.1.3.tgz#0ff208cef09ea1f8ad38efc171c4942eca72d444"
+  integrity sha512-5qaf63As6nkbrMRJ85kZ0ifLzKAGPOGLuoJ4zFVGZIp4oMePRt6bCKWAIX7zgbRDfRPa3jSu+EnoY2873gxaIA==
 
 resolve@^1.1.7, resolve@^1.22.1:
   version "1.22.1"
