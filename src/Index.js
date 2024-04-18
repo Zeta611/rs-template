@@ -2,7 +2,7 @@
 
 import * as App from "./App.js";
 import * as React from "react";
-import * as Pervasives from "../node_modules/rescript/lib/es6/pervasives.js";
+import * as PervasivesU from "../node_modules/rescript/lib/es6/pervasivesU.js";
 import * as Client from "react-dom/client";
 import * as JsxRuntime from "react/jsx-runtime";
 
@@ -12,7 +12,7 @@ import './main.css'
 var root = document.querySelector("#root");
 
 if (root == null) {
-  Pervasives.failwith("DOM root is missing");
+  PervasivesU.failwith("DOM root is missing");
 } else {
   var root$1 = Client.createRoot(root);
   root$1.render(JsxRuntime.jsx(React.StrictMode, {
